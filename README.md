@@ -30,7 +30,7 @@ cd abc
 make
 ```
 
-### SIS (optional)
+### SIS (Optional)
 
 Configure SIS to compare the results with ABC. The following commands will clone the SIS repository and build it.
 
@@ -133,9 +133,9 @@ For liberty, I just put a simple one with INV, NAND and NOR gates. You can find 
 
 Some cost I pre-defined in the liberty file:
 
-* INV: 1
-* NAND: 2
-* NOR: 3
+* `INV`: 1
+* `NAND`: 2
+* `NOR`: 3
 
 ## File Structure
 
