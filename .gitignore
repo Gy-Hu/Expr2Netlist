@@ -7,3 +7,8 @@ abc/
 OpenTimer/
 sis_1.4/
 logic-synthesis-SIS/
+NANDNOR.lib
+*.v
+*.log
+*.blif
+.trash/

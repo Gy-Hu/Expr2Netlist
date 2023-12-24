@@ -1,0 +1,4 @@
+read_blif sis_opt.blif;
+read_lib INVNANDNOR.lib;
+map; 
+write_verilog opt.v;

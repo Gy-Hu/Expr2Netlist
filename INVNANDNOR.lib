@@ -4,7 +4,7 @@ library(ARlogic){
  *               Design : BUF_X1X1 * 
  *-------------------------------------------------------*/
 cell(BUF_X1X1) {
-area :0.02;
+area :0.00;
   cell_leakage_power : 0.02;
   pin(A)  {
    direction        : input;

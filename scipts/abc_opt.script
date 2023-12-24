@@ -1,5 +1,0 @@
-read_eqn ../output.eqn
-read_library ../INVNANDNOR.lib
-aig; bidec; st; resyn;
-resyn2; write_blif ../ABC_opt.blif;
-write_verilog ../opt.v

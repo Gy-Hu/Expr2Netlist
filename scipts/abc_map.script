@@ -1,3 +1,0 @@
-read_blif ../sis_opt.blif;
-read_library ../INVNANDNOR.lib;
-write_verilog ../opt.v;
