@@ -1,0 +1,5 @@
+Optimization and area calculation completed.
+Area Cost: 12
+Saved netlist path: opt.v
+BLIF file path: ABC_opt.blif
+EQN file path: output.eqn

@@ -2,5 +2,6 @@ read_eqn output.eqn;
 read_lib INVNANDNOR.lib;
 aig; bidec; st; resyn;
 resyn2; write_blif ABC_opt.blif;
+write_eqn ABC_opt.eqn;
 map; 
 write_verilog opt.v

@@ -61,6 +61,7 @@ resub -a; sweep
 eliminate -1; sweep
 full_simplify -m nocomp
 write_blif sis_opt.blif
+write_eqn sis_opt.eqn
 quit
 EOF
         echo "Running ABC mapping post SIS optimization..."

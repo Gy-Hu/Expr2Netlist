@@ -1,0 +1,4 @@
+Optimization and area calculation completed.
+Area Cost: 2
+Saved netlist path: opt.v
+BLIF file path: ABC_opt.blif

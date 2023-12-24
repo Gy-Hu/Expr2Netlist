@@ -114,6 +114,21 @@ Time: 0h:07m:13s
 
 You can tune the SIS optimization scripts in `run.sh` and ABC's optimization scripts in `scripts/abc_opt.sh` , and compare the results and just play with it.
 
+Before and after you run the `run.sh`, you better run the `clean.sh` to clean up the project.
+
+```bash
+./clean.sh
+```
+
+## Liberty File
+
+For liberty, I just put a simple one with INV, NAND and NOR gates. You can find it in `INVNANDNOR.lib`. You can also use your own liberty file. Just make sure the name of the file is `INVNANDNOR.lib`.
+
+Some cost I pre-defined in the liberty file:
+
+* INV: 1
+* NAND: 2
+* NOR: 3
 
 ## File Structure
 

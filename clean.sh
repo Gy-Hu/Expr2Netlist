@@ -19,6 +19,8 @@ files_to_trash=(
     "NANDNOR.lib"
     "opt.v"
     "output.eqn"
+    "sis_opt.eqn"
+    "ABC_opt.eqn"
 )
 
 # Loop through the files and move them to the trash directory
