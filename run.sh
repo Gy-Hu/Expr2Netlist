@@ -39,6 +39,9 @@ read -p "Select an option (1/2): " TOOL_CHOICE
 
 BLIF_PATH=""  # Initialize BLIF_PATH variable
 
+# Start timing the optimization process
+START_TIME=$(date +%s%3N)
+
 case $TOOL_CHOICE in
     1)
         echo "Optimizing with ABC..."
@@ -74,6 +77,12 @@ EOF
         ;;
 esac
 
+# End timing the optimization process
+END_TIME=$(date +%s%3N)
+
+# Calculate the time taken in milliseconds
+TIME_TAKEN=$((END_TIME - START_TIME))
+
 # Display the area cost
 echo "Calculating the area cost..."
 AREA_COST=$(./OpenTimer/bin/ot-shell -i scripts/print_area.conf | tail -n 1)  # Capture only the last line
@@ -88,5 +97,6 @@ echo "Area Cost: $AREA_COST"  # Displaying the area cost
 echo "Saved netlist path: $NETLIST_PATH"
 echo "BLIF file path: $BLIF_PATH"  # Print the BLIF path based on the optimization tool selected
 echo "EQN file path: $OUTPUT_FILE"
+echo "Time taken for optimization: $TIME_TAKEN ms"
 
 # End of script

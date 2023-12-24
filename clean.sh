@@ -21,6 +21,7 @@ files_to_trash=(
     "output.eqn"
     "sis_opt.eqn"
     "ABC_opt.eqn"
+    "sis_opt.blif"
 )
 
 # Loop through the files and move them to the trash directory

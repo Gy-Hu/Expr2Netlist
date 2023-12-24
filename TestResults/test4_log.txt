@@ -2,3 +2,6 @@ Optimization and area calculation completed.
 Area Cost: 2
 Saved netlist path: opt.v
 BLIF file path: ABC_opt.blif
+EQN file path: output.eqn
+Time taken for optimization: 77 ms
+Time: 0h:00m:13s      
