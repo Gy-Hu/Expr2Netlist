@@ -1,4 +1,4 @@
-# MICS6000H Project
+# MICS6000H Project - Expr2Netlist
 
 ## Environment Setup
 
@@ -94,7 +94,7 @@ eliminate -1; sweep
 full_simplify -m nocomp
 ```
 
-ABC used the scripts mentioned in `Utah's ECE5740`
+ABC used the scripts mentioned in [Utah's ECE5740](https://my.ece.utah.edu/~kalla/ECE5740/hw5.pdf)
 
 ```
 aig; bidec; st; resyn;
